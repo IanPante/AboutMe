@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zpk-7h-Eab">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Career-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="CareerViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Career" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4qy-cf-WXX">
+                                <rect key="frame" x="157" y="94" width="100" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="CBR-lH-hnu"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="35.5" id="EJm-PM-AlW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="274213448_5101845906576845_1461455948935066673_n" translatesAutoresizingMaskIntoConstraints="NO" id="I67-AW-hrt">
+                                <rect key="frame" x="47" y="137" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Lj4-vl-T7h"/>
+                                    <constraint firstAttribute="height" constant="320" id="RdW-33-f1d"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="4qy-cf-WXX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="09f-b8-yg3"/>
+                            <constraint firstItem="I67-AW-hrt" firstAttribute="top" secondItem="4qy-cf-WXX" secondAttribute="bottom" constant="7.5" id="XFx-w4-KMf"/>
+                            <constraint firstItem="4qy-cf-WXX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aLj-RP-hgM"/>
+                            <constraint firstItem="I67-AW-hrt" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oaK-A6-HNv"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Career" image="airplane" catalog="system" selectedImage="airplane" id="jDj-KK-M1V"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="944.92753623188412" y="67.633928571428569"/>
+        </scene>
+        <!--Family-->
+        <scene sceneID="BLt-Ax-Gy9">
+            <objects>
+                <viewController id="I89-Ts-qEV" customClass="FamilyViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4PO-hv-m7P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Family" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hL1-UJ-y9I">
+                                <rect key="frame" x="157" y="94" width="100" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35.5" id="BWC-Wf-lHG"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="mjq-zL-xDT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="274134786_2094250954059099_2987727594981855816_n" translatesAutoresizingMaskIntoConstraints="NO" id="t2l-B5-m5e">
+                                <rect key="frame" x="47" y="137" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="320" id="1nd-bS-iq3"/>
+                                    <constraint firstAttribute="width" constant="320" id="PXR-m3-15w"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="9yz-dd-htj"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hL1-UJ-y9I" firstAttribute="centerX" secondItem="4PO-hv-m7P" secondAttribute="centerX" id="6IX-an-IbN"/>
+                            <constraint firstItem="hL1-UJ-y9I" firstAttribute="top" secondItem="9yz-dd-htj" secondAttribute="top" constant="50" id="Reu-Dc-cFZ"/>
+                            <constraint firstItem="t2l-B5-m5e" firstAttribute="top" secondItem="hL1-UJ-y9I" secondAttribute="bottom" constant="7.5" id="aeb-Cr-1m8"/>
+                            <constraint firstItem="t2l-B5-m5e" firstAttribute="centerX" secondItem="4PO-hv-m7P" secondAttribute="centerX" id="grA-eH-pmM"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Family" image="person.3.fill" catalog="system" selectedImage="person.3.fill" id="HFY-0F-gxr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3CW-jB-2X3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1705.7971014492755" y="67.633928571428569"/>
+        </scene>
+        <!--Lifestyle-->
+        <scene sceneID="FEy-ay-I5h">
+            <objects>
+                <viewController id="00i-Ai-ZxV" customClass="LifestyleViewController" customModule="AboutMe" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aSC-j8-8QZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lifestyle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DGZ-se-2Bz">
+                                <rect key="frame" x="150" y="94" width="114" height="35.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35.5" id="qrh-Qn-vX7"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="114" id="sYS-9p-XR1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPSMT" family="Times New Roman" pointSize="32"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="274846716_3221334368192083_5205298634949288775_n" translatesAutoresizingMaskIntoConstraints="NO" id="CUa-sH-IDv">
+                                <rect key="frame" x="47" y="137" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="Vev-1h-CIk"/>
+                                    <constraint firstAttribute="height" constant="320" id="sr5-ib-lr0"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="I21-dW-0gw"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                        <constraints>
+                            <constraint firstItem="CUa-sH-IDv" firstAttribute="centerX" secondItem="aSC-j8-8QZ" secondAttribute="centerX" id="8bK-h8-SqN"/>
+                            <constraint firstItem="DGZ-se-2Bz" firstAttribute="centerX" secondItem="aSC-j8-8QZ" secondAttribute="centerX" id="D33-ZL-mB6"/>
+                            <constraint firstItem="DGZ-se-2Bz" firstAttribute="top" secondItem="I21-dW-0gw" secondAttribute="top" constant="50" id="MXI-OR-fpx"/>
+                            <constraint firstItem="CUa-sH-IDv" firstAttribute="top" secondItem="DGZ-se-2Bz" secondAttribute="bottom" constant="7.5" id="sYZ-18-ViB"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Lifestyle" image="bicycle" catalog="system" selectedImage="bicycle" id="UYH-nb-mJ0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z0k-6E-13A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2458" y="68"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TbV-t4-GMU">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Zpk-7h-Eab" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ujm-aY-Yot">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="X2v-1N-Rhu"/>
+                        <segue destination="I89-Ts-qEV" kind="relationship" relationship="viewControllers" id="XFR-xx-2oW"/>
+                        <segue destination="00i-Ai-ZxV" kind="relationship" relationship="viewControllers" id="QXG-ca-dbH"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0Ch-1v-WqB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="-687"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="274134786_2094250954059099_2987727594981855816_n" width="960" height="640"/>
+        <image name="274213448_5101845906576845_1461455948935066673_n" width="750" height="500"/>
+        <image name="274846716_3221334368192083_5205298634949288775_n" width="840" height="560"/>
+        <image name="airplane" catalog="system" width="128" height="115"/>
+        <image name="bicycle" catalog="system" width="128" height="78"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
